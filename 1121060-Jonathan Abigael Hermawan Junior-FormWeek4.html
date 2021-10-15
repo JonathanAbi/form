@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Jonathan">
+		
+	</head>
+	<body>
+		<h1>Daftar Akun My ITHB</h1>
+		<form>
+			<fieldset>
+				<legend>Data Diri</legend>
+				<br>
+				<label>Nama Pertama</label>
+				<br><br>
+				<input type="text" name="firstname" placeholder="Nama pertama">
+				<br><br>
+				<label>Nama Terakhir</label>
+				<br><br>
+				<input type="text" name="lastname" placeholder="Nama terakhir">
+				<br><br>
+				<label>Tanggal Kelahiran</label>
+				<br><br>
+				<input type="date">
+				<br><br>
+				<label>Email :</label>
+				<br><br>
+				<input type="email" name="email" placeholder="contoh@students.ac.id">
+				<br><br>
+				<label>Ukuran Sepatu</label>
+				<br><br>
+				<input type="number" name="ukuran sepatu">
+				<br><br>
+				<label>Kemampuan Design Web (1 low- 100 max)</label>
+				<br><br>
+				<input type="range" name="kemampuan" value="0" min="0" max="100">
+			</fieldset>
+		</form>
+		<form>
+			<fieldset>
+				<legend>Tempat Tinggal</legend><br>
+				<label>Alamat</label><br><br>
+				<textarea placeholder="Jalan Patiukur no 123" style="width:300px; height:200px" ></textarea>
+				<br><br>
+				<label>Kode Pos</label><br><br>
+				<input type="text" name="kodepos"><br><br>
+				<label>Negara</label><br><br>
+				<input type="text" name="negara">
+			</fieldset>
+		</form>
+		<form>
+			<fieldset>
+				<legend>Detail Kartu Mahasiswa</legend>
+				<fieldset>
+					<legend>Tipe Kartu</legend>
+					<input type="radio" name="tipe kartu" value="Parkir">Parkir
+					<input type="radio" name="tipe kartu" value="Kantin">Kantin
+					<input type="radio" name="tipe kartu" value="Mahasiswa">Mahasiswa
+				</fieldset><br>
+				<label>Nama</label><br><br>
+				<input type="text" name="nama" placeholder="Nama yang digunakan"><br><br>
+				<label>Nomor Kartu</label><br><br>
+				<input type="number" name="number"><br><br>
+				<label>Password Kartu</label><br><br>
+				<input type="password" name="pwd"><br><br>
+				<label>Batas Waktu</label><br><br>
+				<input type="date">
+			</fieldset>
+		<form>
+			<fieldset>
+			<input type="submit" value="Simpan Pesanan">
+			</fieldset>
+		</form>
+		</form>
+	</body>
+</html>
